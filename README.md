@@ -18,9 +18,9 @@ $ yarn start:dev
 
 # client
 $ yarn dev
-
-# open project on http://localhost:3000
 ```
+
+## !!! Running the app on http://localhost:3000 !!!
 
 #### Description 💻
 
