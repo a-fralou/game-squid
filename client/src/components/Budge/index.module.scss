@@ -1,0 +1,23 @@
+.budge {
+  border-radius: 20px;
+  padding: 2px 10px;
+  background: $dark;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.budgeDied {
+  color: $primary;
+  background-color: $primary900;
+}
+
+.budgeBig {
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+.budgeLive {
+  color: $secondary;
+  background-color: $secondary800;
+}

@@ -1,0 +1,68 @@
+.overlay {
+  background-color: rgb(23, 1, 1, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+}
+
+.modal {
+  position: relative;
+  z-index: 3;
+  margin: auto;
+  max-width: 360px;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  background: $primary800;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.backDrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.userPhoto {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+
+  img {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.userName {
+  font-size: 14px;
+}
+
+.isFriend {
+  padding: 5px;
+  border: 1px solid $decorate;
+  text-shadow: $decorate800 1px 0 10px;
+  color: $decorate;
+}

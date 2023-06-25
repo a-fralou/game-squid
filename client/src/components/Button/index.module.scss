@@ -1,0 +1,20 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: $primary900;
+  color: #fff;
+  padding: 5px;
+  transition: 0.1s ease-in;
+
+  &:hover {
+    background-color: $primary;
+  }
+
+  &:active {
+    box-shadow: inset 1px 0 10px $primary700;
+  }
+}
+
+.text {
+  margin-right: 5px;
+}

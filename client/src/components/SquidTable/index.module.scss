@@ -1,0 +1,84 @@
+.hedCol {
+  padding: 15px;
+  text-align: center;
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.actions {
+  button {
+    &:last-child {
+      margin-left: 10px;
+    }
+  }
+}
+
+.userInfo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.score {
+  text-shadow: $decorate800 1px 0 10px;
+  color: $decorate;
+}
+
+.userPhoto {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+
+  img {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.table {
+  position: relative;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thead {
+  position: relative;
+  border-bottom: 1px solid $primary900;
+
+  th {
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    z-index: 1;
+    background-color: $primary800;
+    text-align: left;
+    text-shadow: #f00 1px 0 10px;
+    color: $primary;
+  }
+}
+
+.tbody {
+  min-height: 300px;
+
+  tr {
+    td {
+      padding: 25px 15px;
+      border-bottom: 1px solid $primary900;
+
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+}

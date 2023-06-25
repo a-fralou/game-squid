@@ -1,0 +1,64 @@
+.wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: $dark;
+  color: $light;
+  background: linear-gradient(137deg, $dark, $primary700);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 0 0 auto;
+  width: 50%;
+
+  &:first-child {
+    border-right: 1px solid $primary900;
+  }
+
+  &:last-child {
+    border-left: 1px solid $primary900;
+  }
+}
+
+.screen {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: $primary800;
+  overflow: auto;
+  height: 600px;
+  max-width: 1200px;
+}
+
+.logoGame {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+.imgTeam {
+  position: absolute;
+  top: -130px;
+}
+
+.imgTeamLeft {
+  left: 20px;
+}
+
+.imgTeamRight {
+  right: 20px;
+}

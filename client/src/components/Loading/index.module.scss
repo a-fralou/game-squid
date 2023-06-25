@@ -1,0 +1,10 @@
+.loading {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: $primary100 1px 0 10px;
+  color: $primary;
+  font-size: 34px;
+}
